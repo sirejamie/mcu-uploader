@@ -15,7 +15,7 @@ A small uploader for AVR based microcontrollers.
 
 Configure & Generate
 
-> This configuration is an example for the ATmega328p. The command was ran in Windows PowerShell; note the backticks for multi-line commands.
+> This configuration is an example for the ATmega328p. The command was executed in Windows PowerShell.
 
 ```sh
 cmake -G "Ninja" -B build -S . `
@@ -28,7 +28,7 @@ cmake -G "Ninja" -B build -S . `
 
 Build & Upload
 
-> The build gets converted to an Intel hex file and is uploaded to the microcontroller using avrdude. These can be changed in the [CMakeLists.txt](./CMakeLists.txt).
+> The build gets converted to an Intel HEX file and is uploaded to the microcontroller using avrdude. These can be configured in the [CMakeLists.txt](./CMakeLists.txt).
 
 ```sh
 cmake --build build
